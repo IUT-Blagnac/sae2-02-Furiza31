@@ -1,26 +1,12 @@
 package main.eraser;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-
-public class Eraser {
-	
+public class EraserDeux {
 	/**
-	 * Methode avec regex
+	 * Méthode par création d'une chaine de caractère
 	 * @param req
 	 * @return
 	 */
-	public static String methodeUn(String req) {
-		// remplace tous les espaces qui n'ont pas d'espace avant et après par du vide
-		return req.replaceAll("(?<! ) (?! )", ""); 
-	}
-
-	/**
-	 * Methode par création d'une chaine de caractère
-	 * @param req
-	 * @return
-	 */
-	public static String methodeDeux(String req) {
+	public static String start(String req) {
 		String res = "";
 		int length = req.length();
 		
@@ -39,15 +25,4 @@ public class Eraser {
 		} else res += req.charAt(length-2);
 		return res;
 	}
-	
-	/**
-	 * Methode par copy de chaine de caractère pour supprétion
-	 * @param req
-	 * @return
-	 */
-	public static String methodeTrois(String req) {
-		ArrayList<String> res = new ArrayList<String>(Arrays.asList(req.split("")));
-		return res.toString();
-	}
-	
 }
