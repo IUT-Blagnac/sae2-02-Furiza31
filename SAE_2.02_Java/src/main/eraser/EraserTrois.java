@@ -6,6 +6,7 @@ import java.util.Arrays;
 public class EraserTrois {
 	/**
 	 * Méthode par copy de chaine de caractère pour supprétion
+	 * 
 	 * @param req
 	 * @return
 	 */
@@ -15,12 +16,12 @@ public class EraserTrois {
 			res.remove(0);
 		}
 		for (int i = 0; i < res.size() - 1; i++) {
-			if (res.get(i).equals(" ") && !res.get(i+1).equals(" ") && !res.get(i-1).equals(" ")) {
+			if (res.get(i).equals(" ") && !res.get(i + 1).equals(" ") && !res.get(i - 1).equals(" ")) {
 				res.remove(i);
 			}
 		}
-		if (res.get(res.size()-1).equals(" ") && !res.get(res.size()-2).equals(" ")) {
-			res.remove(res.size()-1);
+		if (res.get(res.size() - 1).equals(" ") && !res.get(res.size() - 2).equals(" ")) {
+			res.remove(res.size() - 1);
 		}
 		return String.join("", res);
 	}
