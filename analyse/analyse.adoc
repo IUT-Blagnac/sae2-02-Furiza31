@@ -14,3 +14,13 @@
 
 = Analyse des codes
 
+== Comparaison de l'éfficacitée des différents algorithmes de la cathégorie Efficacité
+Pour la chaîne de caractères 
+
+|==========================================================================
+| Nom de l'algorithmes | lien                                           | langage| Temps d'exécution
+| efficacite-9.py      | link:code_a_analyser/efficacite-9.py[ici]      | Python | 
+| efficacite-25.py     | link:code_a_analyser/efficacite-25.py[ici]     | Python |
+| efficacite-10.java   | link:code_a_analyser/efficacite-10.java[ici]   | Java   |
+| efficacite-124.java  | link:code_a_analyser/efficacite-124.java[ici]  | Java   |
+|==========================================================================
