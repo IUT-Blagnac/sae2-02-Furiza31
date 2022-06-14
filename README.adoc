@@ -135,10 +135,13 @@ Vous utiliserez le dépôt initial qui vous aura été attribué via classroom p
 
 [options="header"]
 |==========================================================================
-| #    | lien                                        | langage| catégorie
-| 1    | link:SAE_2.02_Java/src/main/eraser/EraserUn.java[ici]  | Java   | Lisibilité du code / Qualité du code / Efficacité / Temps d'exécution 
-| 2  |  link:SAE_2.02_Java/src/main/eraser/EraserDeux.java[ici] | Java | Sobriété numérique / Temps d'exécution / Lisibilité du code
-| 3  |  link:SAE_2.02_Java/src/main/eraser/EraserTrois.java[ici] | Java | Lisibility du code
+| # | lien                                        | langage| catégorie
+| 1 | link:SAE_2.02_Java/src/main/eraser/EraserUn.java[ici]  | Java   | Lisibilité du code / Qualité du code / Efficacité / Temps d'exécution 
+| 2 |  link:SAE_2.02_Java/src/main/eraser/EraserDeux.java[ici] | Java | Sobriété numérique / Temps d'exécution / Lisibilité du code
+| 3 |  link:SAE_2.02_Java/src/main/eraser/EraserTrois.java[ici] | Java | Lisibility du code
+| 4 | link:SAE_2.02_Python/eraserUn.py[ici] | Python | Lisibilité du code / Qualité du code / Efficacité / Temps d'exécution
+| 5 | link:SAE_2.02_Python/eraserDeux.py[ici] | Python | Sobriété numérique / Temps d'exécution / Lisibilité du code
+| 6 | link:SAE_2.02_Python/eraserTrois.py[ici] | Python | Lisibility du code
 |==========================================================================
 
 === Phase 2 (deadline : **vendredi 16 juin** à minuit)

@@ -1,0 +1,16 @@
+:toc-title: Sommaire
+:toclevels: 5
+:toc:
+:source-highlighter: highlightjs
+:author: Hugo Wendjaneh
+:last-update-label!:
+:backend: html
+:outfilesuffix: .html
+:caution-caption: ⚠️
+:important-caption: ❗
+:note-caption: 📝
+:tip-caption: 💡
+:warning-caption: ⚠️
+
+= Analyse des codes
+
