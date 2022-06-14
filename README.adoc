@@ -154,7 +154,6 @@ WARNING: Les répertoires et fichiers existants devront être complétés et mis
 
 - Java 1.8
 - Python
-- C
 - MinGW (compilateur C)
 
 === Reproductibilité
