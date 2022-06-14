@@ -152,8 +152,10 @@ WARNING: Les répertoires et fichiers existants devront être complétés et mis
 
 === Pré-requis
 
-- Java v.x.y.z
-- ...
+- Java 1.8
+- Python
+- C
+- MinGW (compilateur C)
 
 === Reproductibilité
 
