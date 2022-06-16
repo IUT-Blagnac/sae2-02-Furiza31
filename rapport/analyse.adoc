@@ -19,10 +19,10 @@ Pour la chaîne de caractères
 
 |==========================================================================
 | Classement | Nom de l'algorithmes | lien                                           | langage | Temps d'exécution (en secondes)    | nombre de répétitions | Text
-| 1 | efficacite_25.py     | link:code_a_analyser/efficacite_25.py[ici]     | Python  | 0.01308150                         | 1000                  | link:code_a_analyser/text.txt[ici]
-| 2 | efficacite_9.py      | link:code_a_analyser/efficacite_9.py[ici]      | Python  | 0.32063460                         | 1000                  | link:code_a_analyser/text.txt[ici]
-| 3 | efficacite_124.java  | link:code_a_analyser/efficacite_124.java[ici]  | Java    | 0.366                              | 1000                  | link:code_a_analyser/text.txt[ici]
-| 4 | efficacite_10.java   | link:code_a_analyser/efficacite_10.java[ici]   | Java    | 10.829                             | 1000                  | link:code_a_analyser/text.txt[ici]
+| 1 | efficacite_25.py     | link:../analyse/code_a_analyser/efficacite_25.py[ici]     | Python  | 0.01308150                         | 1000                  | link:../analyse/code_a_analyser/text.txt[ici]
+| 2 | efficacite_9.py      | link:../analyse/code_a_analyser/efficacite_9.py[ici]      | Python  | 0.32063460                         | 1000                  | link:../analyse/code_a_analyser/text.txt[ici]
+| 3 | efficacite_124.java  | link:../analyse/code_a_analyser/efficacite_124.java[ici]  | Java    | 0.366                              | 1000                  | link:../analyse/code_a_analyser/text.txt[ici]
+| 4 | efficacite_10.java   | link:../analyse/code_a_analyser/efficacite_10.java[ici]   | Java    | 10.829                             | 1000                  | link:../analyse/code_a_analyser/text.txt[ici]
 |==========================================================================
 
 === Pourquoi ce classement ?

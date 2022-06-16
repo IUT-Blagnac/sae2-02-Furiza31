@@ -162,7 +162,7 @@ WARNING: Les répertoires et fichiers existants devront être complétés et mis
 === Reproductibilité
 
 - Pour reproduire mon analyse :
-. Aller voir ce document: link:analyse/analyse.adoc[anlyse.adoc]
+. Aller voir ce document: link:rapport/analyse.adoc[anlyse.adoc]
 
 === Références
 
