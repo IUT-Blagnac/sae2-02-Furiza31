@@ -25,8 +25,17 @@ Pour la chaîne de caractères
 | 4 | efficacite_10.java   | link:../analyse/code_a_analyser/efficacite_10.java[ici]   | Java    | 10.829                             | 1000                  | link:../analyse/code_a_analyser/text.txt[ici]
 |==========================================================================
 
+=== Complexité algorithmique
+efficacite_25.py: O(n) +
+efficacite_9.py: O(n) +
+efficacite_124.java: O(n), peut nécessiter jusqu'a O(2^m) ou m = taille de l’expression régulière +
+Source: link:https://stringfixer.com/fr/Regular_Expression[Stringfiexer] +
+efficacite_10.java: O(n) +
+
 === Pourquoi ce classement ?
 J'ai choisi de mettre le script **__efficacite_25.py__** en première place, car malgrès que python n'est pas un langage compilé, ce script est le plus rapide lors de l'exécution. Je pense que le même script codé en Java aurait été plus rapide.
+
+
 
 === Reproduire l'analyse
 ==== Python
