@@ -18,9 +18,25 @@
 Pour la chaîne de caractères 
 
 |==========================================================================
-| Nom de l'algorithmes | lien                                           | langage| Temps d'exécution
-| efficacite-9.py      | link:code_a_analyser/efficacite-9.py[ici]      | Python | 
-| efficacite-25.py     | link:code_a_analyser/efficacite-25.py[ici]     | Python |
-| efficacite-10.java   | link:code_a_analyser/efficacite-10.java[ici]   | Java   |
-| efficacite-124.java  | link:code_a_analyser/efficacite-124.java[ici]  | Java   |
+| Classement | Nom de l'algorithmes | lien                                           | langage | Temps d'exécution (en secondes)    | nombre de répétitions | Text
+| 1 | efficacite_25.py     | link:code_a_analyser/efficacite-25.py[ici]     | Python  | 0.01308150                         | 1000                  | link:code_a_analyser/text.txt[ici]
+| 2 | efficacite_9.py      | link:code_a_analyser/efficacite-9.py[ici]      | Python  | 0.32063460                         | 1000                  | link:code_a_analyser/text.txt[ici]
+| 3 | efficacite_124.java  | link:code_a_analyser/efficacite-124.java[ici]  | Java    | 0.366                              | 1000                  | link:code_a_analyser/text.txt[ici]
+| 4 | efficacite_10.java   | link:code_a_analyser/efficacite-10.java[ici]   | Java    | 10.829                             | 1000                  | link:code_a_analyser/text.txt[ici]
 |==========================================================================
+
+=== Pourquoi ce classement ?
+J'ai choisi de mettre le script **__efficacite_25.py__** en première place, car malgrès que python n'est pas un langage compilé, ce script est le plus rapide lors de l'exécution. Je pense que le même script codé en Java aurait été plus rapide.
+
+=== Reproduire l'analyse
+==== Python
+Installer **__python__** +
+Lancer le script python **__testEfficacitéPython.py__** +
+Vous devez avoir la librairie **__timeit__** d'installée sur votre ordinateur
+
+==== Java
+Installer **__Éclipse__** +
+Installer **__Java__** +
+Lancer 
+Éclipse et choisissez le workspace **__testEfficacite__** dans le dossier analyse +
+Ensuite, lancer le script **__Main.java__** qui se trouve dans le package main

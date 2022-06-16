@@ -155,21 +155,19 @@ WARNING: Les répertoires et fichiers existants devront être complétés et mis
 
 === Pré-requis
 
-- Java 1.8
+- Java 1.8 jusqu'à Java 1.17
 - Python
 - MinGW (compilateur C)
 
 === Reproductibilité
 
 - Pour reproduire mon analyse :
-. Installez X
-. Lancez Y
-. ...
+. Aller voir ce document: link:analyse/analyse.adoc[anlyse.adoc]
 
 === Références
 
-- link:http://xyz[Mon super outil XYZ]
-- ...
+- En python: la librairie **__timeit__**.
+- Génération du text via ce link:analyse/code_a_analyser/generationText.py[programme].
 
 == Généralités, notation de la SAÉ et résultat du concours
 
