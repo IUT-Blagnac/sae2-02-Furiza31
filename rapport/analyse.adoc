@@ -18,11 +18,11 @@
 Peu importe le code source, c’est l’efficacité de son exécution qui est recherché (complexité maîtrisée, temps d’exécution minimal, …​).
 
 |==========================================================================
-| Classement | Nom de l'algorithmes | Lien                                           | langage | Temps d'exécution (en secondes)    | nombre de répétitions | Text
-| 1 | efficacite_25.py     | link:../analyse/code_a_analyser/efficacite_25.py[ici]     | Python  | 0.01308150                         | 1000                  | link:../analyse/code_a_analyser/text.txt[ici]
-| 2 | efficacite_9.py      | link:../analyse/code_a_analyser/efficacite_9.py[ici]      | Python  | 0.32063460                         | 1000                  | link:../analyse/code_a_analyser/text.txt[ici]
-| 3 | efficacite_124.java  | link:../analyse/code_a_analyser/efficacite_124.java[ici]  | Java    | 0.366                              | 1000                  | link:../analyse/code_a_analyser/text.txt[ici]
-| 4 | efficacite_10.java   | link:../analyse/code_a_analyser/efficacite_10.java[ici]   | Java    | 10.829                             | 1000                  | link:../analyse/code_a_analyser/text.txt[ici]
+| Classement | Nom de l'algorithmes | Lien                                           | langage | Temps d'exécution (en secondes)    | nombre de répétitions | Text | Note
+| 1 | efficacite_25.py     | link:../analyse/code_a_analyser/efficacite_25.py[ici]     | Python  | 0.01308150                         | 1000                  | link:../analyse/code_a_analyser/text.txt[ici] | 5
+| 2 | efficacite_9.py      | link:../analyse/code_a_analyser/efficacite_9.py[ici]      | Python  | 0.32063460                         | 1000                  | link:../analyse/code_a_analyser/text.txt[ici] | 4
+| 3 | efficacite_124.java  | link:../analyse/code_a_analyser/efficacite_124.java[ici]  | Java    | 0.366                              | 1000                  | link:../analyse/code_a_analyser/text.txt[ici] | 3
+| 4 | efficacite_10.java   | link:../analyse/code_a_analyser/efficacite_10.java[ici]   | Java    | 10.829                             | 1000                  | link:../analyse/code_a_analyser/text.txt[ici] | 2
 |==========================================================================
 
 === Complexité algorithmique
@@ -54,10 +54,10 @@ Ensuite, lancer le script **__Main.java__** qui se trouve dans le package main
 Ici il s’agit de faire un code facile à maintenir, lisible par des humains.
 
 |====================================
-| Classement | Nom de l'algorithmes | Lien | langage
-| 1 | simplicite_114.py | link:../analyse/code_a_analyser/simplicite_114.py[ici] | Python
-| 2 | simplicite_72.py | link:../analyse/code_a_analyser/simplicite_72.py[ici] | Python
-| 3 | simplicite_144.py | link:../analyse/code_a_analyser/simplicite_144.py[ici] | Python
+| Classement | Nom de l'algorithmes | Lien | langage | Note
+| 1 | simplicite_114.py | link:../analyse/code_a_analyser/simplicite_114.py[ici] | Python | 5
+| 2 | simplicite_72.py | link:../analyse/code_a_analyser/simplicite_72.py[ici] | Python | 3
+| 3 | simplicite_144.py | link:../analyse/code_a_analyser/simplicite_144.py[ici] | Python | 2
 |====================================
 
 === Pourquoi ce classement ?
@@ -68,10 +68,10 @@ J'ai choisi de mettre en premier le code **__simplicité_114 py__**, car ce code
 Cela devient un critère de plus en plus important. La consomation des ressources de l'algorithme.
 
 |====================================
-| Classement | Nom de l'algorithmes | Lien | langage
-| 1 | sobriete_57.c | link:../analyse/code_a_analyser/sobriete_57.c[ici] | C
-| 2 | sobriete_67.java | link:../analyse/code_a_analyser/sobriete_67.java[ici] | Java
-| 3 | sobriete_76.c | link:../analyse/code_a_analyser/sobriete_76.c[ici] | C
+| Classement | Nom de l'algorithmes | Lien | langage | Note
+| 1 | sobriete_57.c | link:../analyse/code_a_analyser/sobriete_57.c[ici] | C | 5
+| 2 | sobriete_67.java | link:../analyse/code_a_analyser/sobriete_67.java[ici] | Java | 4
+| 3 | sobriete_76.c | link:../analyse/code_a_analyser/sobriete_76.c[ici] | C | 4
 |====================================
 
 === Reproduire l'analyse
