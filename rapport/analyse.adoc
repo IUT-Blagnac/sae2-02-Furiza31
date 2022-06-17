@@ -15,10 +15,10 @@
 = Analyse des codes
 
 == Comparaison de l'éfficacitée des différents algorithmes de la cathégorie Efficacité
-Pour la chaîne de caractères 
+Peu importe le code source, c’est l’efficacité de son exécution qui est recherché (complexité maîtrisée, temps d’exécution minimal, …​).
 
 |==========================================================================
-| Classement | Nom de l'algorithmes | lien                                           | langage | Temps d'exécution (en secondes)    | nombre de répétitions | Text
+| Classement | Nom de l'algorithmes | Lien                                           | langage | Temps d'exécution (en secondes)    | nombre de répétitions | Text
 | 1 | efficacite_25.py     | link:../analyse/code_a_analyser/efficacite_25.py[ici]     | Python  | 0.01308150                         | 1000                  | link:../analyse/code_a_analyser/text.txt[ici]
 | 2 | efficacite_9.py      | link:../analyse/code_a_analyser/efficacite_9.py[ici]      | Python  | 0.32063460                         | 1000                  | link:../analyse/code_a_analyser/text.txt[ici]
 | 3 | efficacite_124.java  | link:../analyse/code_a_analyser/efficacite_124.java[ici]  | Java    | 0.366                              | 1000                  | link:../analyse/code_a_analyser/text.txt[ici]
@@ -26,11 +26,11 @@ Pour la chaîne de caractères
 |==========================================================================
 
 === Complexité algorithmique
-efficacite_25.py: O(n) +
-efficacite_9.py: O(n) +
-efficacite_124.java: O(n), peut nécessiter jusqu'a O(2^m) ou m = taille de l’expression régulière +
-Source: link:https://stringfixer.com/fr/Regular_Expression[Stringfiexer] +
-efficacite_10.java: O(n) +
+efficacite_25.py:: O(n)
+efficacite_9.py:: O(n)
+efficacite_124.java:: O(n), peut nécessiter jusqu'a O(2^m) ou m = taille de l’expression régulière
+Source: link:https://stringfixer.com/fr/Regular_Expression[Stringfiexer]
+efficacite_10.java:: O(n)
 
 === Pourquoi ce classement ?
 J'ai choisi de mettre le script **__efficacite_25.py__** en première place, car malgrès que python n'est pas un langage compilé, ce script est le plus rapide lors de l'exécution. Je pense que le même script codé en Java aurait été plus rapide.
@@ -49,3 +49,36 @@ Installer **__Java__** +
 Lancer 
 Éclipse et choisissez le workspace **__testEfficacite__** dans le dossier analyse +
 Ensuite, lancer le script **__Main.java__** qui se trouve dans le package main
+
+== Comparaison de la simplicite des différents algorithmes de la cathégorie simplicite
+Ici il s’agit de faire un code facile à maintenir, lisible par des humains.
+
+|====================================
+| Classement | Nom de l'algorithmes | Lien | langage
+| 1 | simplicite_114.py | link:../analyse/code_a_analyser/simplicite_114.py[ici] | Python
+| 2 | simplicite_72.py | link:../analyse/code_a_analyser/simplicite_72.py[ici] | Python
+| 3 | simplicite_144.py | link:../analyse/code_a_analyser/simplicite_144.py[ici] | Python
+|====================================
+
+=== Pourquoi ce classement ?
+J'ai choisi de mettre en premier le code **__simplicité_114 py__**, car ce code est le plus simple à maintenir du fait qu'il est commenté et facilement compréhensible. Le nombre de lignes de ce script reste assez petit, il est aussi facilement modifiable du fait de sa simplicité. En revanche les deux autres algorithmes sont plus compliqués à comprendre car ils ne sont pas commentés. Le dernier algorithme utilise le code ASCII de chaque caractère à comparer ce qui rend ça lisiblité plus compliquée.
+
+== Comparaison de la sobriété des différents algorithmes de la cathégorie sobriété
+
+Cela devient un critère de plus en plus important. La consomation des ressources de l'algorithme.
+
+|====================================
+| Classement | Nom de l'algorithmes | Lien | langage
+| 1 | sobriete_57.c | link:../analyse/code_a_analyser/sobriete_57.c[ici] | C
+| 2 | sobriete_67.java | link:../analyse/code_a_analyser/sobriete_67.java[ici] | Java
+| 3 | sobriete_76.c | link:../analyse/code_a_analyser/sobriete_76.c[ici] | C
+|====================================
+
+=== Reproduire l'analyse
+Regarder le code et compter le nombre d'opération éffectuée pour::
+- if (comparaison)
+- while (comparaison)
+- affectation de variable
+- l'incrémentation de variable +
+n = 1000000 +
+Avec n = la longeur de la chaine de caractère

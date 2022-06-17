@@ -168,6 +168,8 @@ WARNING: Les répertoires et fichiers existants devront être complétés et mis
 
 - En python: la librairie **__timeit__**.
 - Génération du text via ce link:analyse/code_a_analyser/generationText.py[programme].
+- Complexité algorithmique du Regex: link:https://stringfixer.com/fr/Regular_Expression[Stringfiexer]
+- Calculer la comlexité d'un algorithme: link:https://info.blaisepascal.fr/nsi-complexite-dun-algorithme[Complexité]
 
 == Généralités, notation de la SAÉ et résultat du concours
 
